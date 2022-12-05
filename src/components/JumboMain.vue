@@ -15,7 +15,7 @@ export default {
         <small>17 YEARS OF EXPERIENCE</small>
         <h1>
           We Are a <br />
-          Web Design <mark>Agency</mark>
+          Web Design<mark>Agency</mark>
         </h1>
         <p>
           Far ffar away, behind the word mountains , far from the countries
@@ -52,15 +52,14 @@ export default {
   background-position: 650px -48px;
   background-repeat: no-repeat;
   height: 935px;
-  margin-top: 0px;
 }
 #description {
   max-width: 750px;
-  padding-left: 100px;
-  padding-top: 170px;
+  padding-left: 120px;
+  padding-top: 140px;
   position: relative;
   h1 {
-    font-size: 56px;
+    font-size: 58px;
     font-weight: bold;
     line-height: 70px;
     margin-bottom: 60px;
@@ -68,8 +67,8 @@ export default {
   &::after {
     content: "";
     position: absolute;
-    bottom: 160px;
-    left: 117px;
+    bottom: 280px;
+    left: 137px;
     height: 6px;
     width: 40px;
     background: linear-gradient(
@@ -93,8 +92,8 @@ export default {
 #description::before {
   content: "";
   position: absolute;
-  bottom: 160px;
-  left: 100px;
+  bottom: 280px;
+  left: 120px;
   height: 6px;
   width: 10px;
   background: linear-gradient(
