@@ -1,11 +1,15 @@
 <script>
+import JumboMain from "./JumboMain.vue";
+
 export default {
-  data() {
-    return {};
+  components: {
+    JumboMain,
   },
 };
 </script>
 
-<template></template>
+<template>
+  <JumboMain />
+</template>
 
 <style lang="scss" scoped></style>

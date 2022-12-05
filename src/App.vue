@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="my-container">
     <AppHeader />
     <AppMain />
     <AppFooter />
@@ -22,4 +22,8 @@ export default {
 
 <style lang="scss">
 @import "./style/global.scss";
+.my-container {
+  width: 1536px;
+  margin: auto;
+}
 </style>

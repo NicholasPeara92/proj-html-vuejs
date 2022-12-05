@@ -33,6 +33,7 @@ export default {
 header {
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 .header-buttons {
   display: flex;
