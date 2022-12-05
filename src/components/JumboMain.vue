@@ -64,30 +64,30 @@ export default {
     line-height: 70px;
     margin-bottom: 60px;
   }
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 280px;
-    left: 137px;
-    height: 6px;
-    width: 40px;
-    background: linear-gradient(
-      270deg,
-      #0edaa0ff,
-      #30dc90ff,
-      #51dd81ff,
-      #73df71ff,
-      #94e061ff
-    );
-  }
-  small {
-    color: var(--tertiary-color);
-    letter-spacing: 5px;
-  }
-  mark {
-    background-color: inherit;
-    color: var(--tertiary-color);
-  }
+}
+small {
+  color: var(--tertiary-color);
+  letter-spacing: 5px;
+}
+mark {
+  background-color: inherit;
+  color: var(--tertiary-color);
+}
+#description::after {
+  content: "";
+  position: absolute;
+  bottom: 280px;
+  left: 137px;
+  height: 6px;
+  width: 40px;
+  background: linear-gradient(
+    270deg,
+    #0edaa0ff,
+    #30dc90ff,
+    #51dd81ff,
+    #73df71ff,
+    #94e061ff
+  );
 }
 #description::before {
   content: "";
