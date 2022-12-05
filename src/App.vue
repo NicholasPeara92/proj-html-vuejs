@@ -1,5 +1,5 @@
 <script>
-import AppHeader from "./components/AppHeader.vue";
+import AppHeader from "./components/AppHearder.vue";
 import AppMain from "./components/AppMain.vue";
 import AppFooter from "./components/AppFooter.vue";
 
@@ -20,6 +20,6 @@ export default {
   </div>
 </template>
 
-<style>
+<style lang="scss">
 @import "./style/global.scss";
 </style>
