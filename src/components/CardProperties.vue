@@ -50,4 +50,16 @@ export default {
     margin-bottom: 20px;
   }
 }
+.card:hover {
+  background: linear-gradient(
+    90deg,
+    #0edaa0ff,
+    #30dc90ff,
+    #51dd81ff,
+    #73df71ff,
+    #94e061ff
+  );
+  color: white;
+  transition: 0.5s;
+}
 </style>

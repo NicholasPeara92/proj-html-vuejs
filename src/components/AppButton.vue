@@ -22,4 +22,8 @@ button {
   font-size: 12px;
   box-shadow: 5px 5px 15px #baf5e7;
 }
+button:hover {
+  background: var(--primary-color);
+  box-shadow: none;
+}
 </style>
