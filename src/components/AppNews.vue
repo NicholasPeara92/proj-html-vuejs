@@ -25,6 +25,32 @@ export default {
           title: "Develop Your Startup Idea",
         },
       ],
+      partners: [
+        {
+          img: "src/assets/client-1-2x.png",
+          name: "Avantgarde",
+        },
+        {
+          img: "src/assets/client-9-2x.png",
+          name: "Fastlane",
+        },
+        {
+          img: "src/assets/client-7-2x.png",
+          name: "Ron Jones",
+        },
+        {
+          img: "src/assets/client-3-2x.png",
+          name: "Chippy's",
+        },
+        {
+          img: "src/assets/client-4-2x.png",
+          name: "Bullseye",
+        },
+        {
+          img: "src/assets/client-5-2x.png",
+          name: "Mighty Furnitures",
+        },
+      ],
     };
   },
 };
@@ -63,6 +89,11 @@ export default {
         <DarkButton />
       </div>
     </div>
+    <div id="partners" class="d-flex">
+      <div v-for="partner in partners">
+        <img :src="partner.img" alt="" />
+      </div>
+    </div>
   </section>
 </template>
 
@@ -70,6 +101,7 @@ export default {
 section {
   background-color: var(--secondary-color);
   padding-top: 200px;
+  padding-bottom: 100px;
   position: relative;
   #spacer {
     position: absolute;
@@ -141,5 +173,10 @@ input {
 }
 #submit {
   border-radius: 0 20px 20px 0;
+}
+#partners {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
 }
 </style>
