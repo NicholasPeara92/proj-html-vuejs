@@ -1,9 +1,11 @@
 <script>
 import AppButton from "./commons/AppButton.vue";
+import AppSpacer from "./commons/AppSpacer.vue";
 
 export default {
   components: {
     AppButton,
+    AppSpacer,
   },
 };
 </script>
@@ -27,6 +29,7 @@ export default {
         learn more about <br />
         our<mark>missions</mark>
       </h3>
+      <AppSpacer class="spacer" />
       <p>
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia, there live the blind texts. Separated they live in
@@ -51,13 +54,12 @@ section {
 .description-col {
   width: 50%;
   padding: 100px;
-  position: relative;
   h3 {
     font-size: 42px;
     font-weight: bold;
   }
   p {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
   }
   mark {
@@ -65,38 +67,10 @@ section {
     color: var(--tertiary-color);
   }
 }
-.description-col::after {
-  content: "";
-  position: absolute;
-  bottom: 302px;
-  left: 117px;
-  height: 6px;
-  width: 40px;
-  background: linear-gradient(
-    270deg,
-    #0edaa0ff,
-    #30dc90ff,
-    #51dd81ff,
-    #73df71ff,
-    #94e061ff
-  );
+.spacer {
+  padding-top: 15px;
 }
-.description-col::before {
-  content: "";
-  position: absolute;
-  bottom: 302px;
-  left: 102px;
-  height: 6px;
-  width: 10px;
-  background: linear-gradient(
-    270deg,
-    #0edaa0ff,
-    #30dc90ff,
-    #51dd81ff,
-    #73df71ff,
-    #94e061ff
-  );
-}
+
 .img-back {
   max-width: 620px;
   position: relative;

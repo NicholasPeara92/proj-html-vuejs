@@ -1,11 +1,13 @@
 <script>
 import CardProperties from "./commons/CardProperties.vue";
 import AppButton from "./commons/AppButton.vue";
+import AppSpacer from "./commons/AppSpacer.vue";
 
 export default {
   components: {
     CardProperties,
     AppButton,
+    AppSpacer,
   },
 };
 </script>
@@ -18,6 +20,7 @@ export default {
         Look More <mark>Elegant</mark><br />
         And Stylish!
       </h2>
+      <AppSpacer class="spacer" />
       <AppButton id="section-btn" />
     </div>
     <div class="card-section"><CardProperties /></div>
@@ -37,7 +40,6 @@ section {
   width: 35%;
   padding-right: 50px;
   padding-left: 20px;
-  position: relative;
   h2 {
     font-size: 45px;
     line-height: 60px;
@@ -49,45 +51,17 @@ mark {
   background-color: white;
   color: var(--tertiary-color);
 }
+.spacer {
+  padding-top: 30px;
+}
 .card-section {
   display: flex;
   flex-wrap: wrap;
   width: 65%;
   justify-content: space-around;
 }
-.title-section::after {
-  content: "";
-  position: absolute;
-  bottom: 265px;
-  left: 37px;
-  height: 6px;
-  width: 40px;
-  background: linear-gradient(
-    270deg,
-    #0edaa0ff,
-    #30dc90ff,
-    #51dd81ff,
-    #73df71ff,
-    #94e061ff
-  );
-}
-.title-section::before {
-  content: "";
-  position: absolute;
-  bottom: 265px;
-  left: 20px;
-  height: 6px;
-  width: 10px;
-  background: linear-gradient(
-    270deg,
-    #0edaa0ff,
-    #30dc90ff,
-    #51dd81ff,
-    #73df71ff,
-    #94e061ff
-  );
-}
+
 #section-btn {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 </style>

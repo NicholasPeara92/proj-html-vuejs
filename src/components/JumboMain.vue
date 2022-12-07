@@ -1,9 +1,11 @@
 <script>
 import DarkButton from "./commons/DarkButton.vue";
+import AppSpacer from "./commons/AppSpacer.vue";
 
 export default {
   components: {
     DarkButton,
+    AppSpacer,
   },
 };
 </script>
@@ -17,7 +19,8 @@ export default {
           We Are a <br />
           Web Design<mark>Agency</mark>
         </h1>
-        <p>
+        <AppSpacer class="spacer" />
+        <p class="pt-5">
           Far ffar away, behind the word mountains , far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they
           live in Bookmarksgrove right at the coast of the Semantics, a large
@@ -57,12 +60,13 @@ export default {
   max-width: 750px;
   padding-left: 120px;
   padding-top: 140px;
-  position: relative;
   h1 {
     font-size: 58px;
     font-weight: bold;
     line-height: 70px;
-    margin-bottom: 60px;
+  }
+  .spacer {
+    margin: 30px 0;
   }
 }
 small {
@@ -72,38 +76,6 @@ small {
 mark {
   background-color: inherit;
   color: var(--tertiary-color);
-}
-#description::after {
-  content: "";
-  position: absolute;
-  bottom: 280px;
-  left: 137px;
-  height: 6px;
-  width: 40px;
-  background: linear-gradient(
-    270deg,
-    #0edaa0ff,
-    #30dc90ff,
-    #51dd81ff,
-    #73df71ff,
-    #94e061ff
-  );
-}
-#description::before {
-  content: "";
-  position: absolute;
-  bottom: 280px;
-  left: 120px;
-  height: 6px;
-  width: 10px;
-  background: linear-gradient(
-    270deg,
-    #0edaa0ff,
-    #30dc90ff,
-    #51dd81ff,
-    #73df71ff,
-    #94e061ff
-  );
 }
 ul {
   list-style: none;
