@@ -31,6 +31,8 @@ export default {
     width: 415px;
     left: 50px;
     bottom: -20px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
     small {
       color: lightgray;
     }
