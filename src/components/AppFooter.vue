@@ -69,6 +69,14 @@ export default {
       </div>
     </div>
   </footer>
+  <div class="chat-section">
+    <div id="up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <div id="chat">
+      <i class="fa-regular fa-comment"></i>
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -101,5 +109,39 @@ ul {
   background: linear-gradient(270deg, black, rgb(48, 48, 48));
   color: grey;
   padding: 40px 20px;
+}
+.chat-section {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 200px;
+  left: 0;
+  z-index: 40;
+  background-color: transparent;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  height: 100px;
+  align-items: center;
+}
+#chat {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #527ceb;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+#up {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
 }
 </style>
