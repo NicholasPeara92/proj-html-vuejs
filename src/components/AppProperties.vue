@@ -1,6 +1,6 @@
 <script>
-import CardProperties from "./CardProperties.vue";
-import AppButton from "./AppButton.vue";
+import CardProperties from "./commons/CardProperties.vue";
+import AppButton from "./commons/AppButton.vue";
 
 export default {
   components: {

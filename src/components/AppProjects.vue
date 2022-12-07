@@ -1,7 +1,7 @@
 <script>
-import CardProject from "./CardProject.vue";
-import AppSpacer from "./AppSpacer.vue";
-import AppButton from "./AppButton.vue";
+import CardProject from "./commons/CardProject.vue";
+import AppSpacer from "./commons/AppSpacer.vue";
+import AppButton from "./commons/AppButton.vue";
 
 export default {
   components: {

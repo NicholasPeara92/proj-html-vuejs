@@ -1,5 +1,5 @@
 <script>
-import AppButton from "./AppButton.vue";
+import AppButton from "./commons/AppButton.vue";
 
 export default {
   components: {

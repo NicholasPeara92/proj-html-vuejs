@@ -1,7 +1,7 @@
 <script>
-import HeaderNav from "./HeaderNav.vue";
-import SocialLinks from "./SocialLinks.vue";
-import AppButton from "./AppButton.vue";
+import HeaderNav from "./commons/HeaderNav.vue";
+import SocialLinks from "./commons/SocialLinks.vue";
+import AppButton from "./commons/AppButton.vue";
 
 export default {
   components: {

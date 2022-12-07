@@ -1,5 +1,5 @@
 <script>
-import DarkButton from "./DarkButton.vue";
+import DarkButton from "./commons/DarkButton.vue";
 
 export default {
   components: {

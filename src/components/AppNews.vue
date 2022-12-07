@@ -1,7 +1,7 @@
 <script>
-import NewsCard from "./NewsCard.vue";
-import AppSpacer from "./AppSpacer.vue";
-import DarkButton from "./DarkButton.vue";
+import NewsCard from "./commons/NewsCard.vue";
+import AppSpacer from "./commons/AppSpacer.vue";
+import DarkButton from "./commons/DarkButton.vue";
 
 export default {
   components: {
