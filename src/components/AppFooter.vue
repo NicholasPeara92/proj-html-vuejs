@@ -24,7 +24,7 @@ export default {
   <footer>
     <div class="d-flex justify-content-between">
       <div class="company-story my-col">
-        <img src="../assets/cropped-Group-39-2x.png" alt="" />
+        <img class="mb-3" src="../assets/cropped-Group-39-2x.png" alt="" />
         <p>
           While the lovely valley teems with vapour around me, and the meridian
           sun strikes the upper surface of the impenetrable foliage of mu trees.
